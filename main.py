@@ -17,7 +17,7 @@ client = TelegramClient(StringSession( Config.USER_SESSION_STRING), Config.API_I
 
 
 async def get_user_join(id):
-    if Config.FORCE_SUB == "False":
+    if Config.FORCE_SUB == "True":
         return True
 
     ok = True
@@ -109,7 +109,7 @@ async def message_handler(event):
     '''
 
             newbutton = [Button.url('Help🙋',
-                                    f'https://t.me/postsearchbot?start=Watch')]
+                                    f'https://t.me/howtoopen113')]
 
             await txt.delete()
             result = await event.reply(answer, buttons=newbutton, link_preview=False)
@@ -132,7 +132,7 @@ async def message_handler(event):
         message = f'**Click Here 👇 For "{event.text}"**\n\n[🍿🎬 {str(event.text).upper()}\n🍿🎬 {str("Click me for results").upper()}]({tgraph_result})'
 
         newbutton = [Button.url('How To Watch ❓',
-                                    f'https://t.me/postsearchbot?start=Watch')]
+                                    f'https://t.me/howtoopen113')]
 
         await txt.delete()
         await asyncio.sleep(0.5)
@@ -144,7 +144,7 @@ async def message_handler(event):
     except Exception as e:
         print(e)
         await txt.delete()
-        result = await event.reply("I am Unable Search,Please Search In @PostSearchBOT🙏")
+        result = await event.reply("I am Unable Search,Plese See Other Result")
         await asyncio.sleep(Config.AUTO_DELETE_TIME)
         await event.delete() 
         return await result.delete()
