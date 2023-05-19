@@ -10,7 +10,7 @@ class Config(object):
     BOT_TOKEN = os.getenv("BOT_TOKEN", "6100076941:AAEQ53YG1w1al3CbdFBYjwaVEKQcflJEmso")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOMcBu4LJ0CMSqNDYB9PtNuWeNEtBu8zUqDoXOGv-kL8D1s-3lg7UWs4KqHCPLnwk09XR3hgCvv3Bw-jexVXs8D1GcSDBN5r0SAmkC0XrHdnf6bFQljMKsJf4fm31UE79THVQ2vFh7h2rGoHQ3SxjUshnotuUO_gls7lRMhmfOZ1VtLIXzvEahZT9fXBBhFZzXyrZvl_Vrod1-9mRAzBgnxciLDGs2hmtVL9S5RJ5v485s5WzsUznuC_OEkk0pfJBXVMkO6nHMm5lLPaTUt7ABXBaP9g2zXx6DYsvJkwxzhACiGqMVityhx0aQxW6aldCGvKWiUjYyTgKM1iwyGXVii-BqYY=")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001863196533")) 
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001772048947")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "mrbeansearchrobot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "5305304520"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "misssunknown")
