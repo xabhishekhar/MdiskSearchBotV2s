@@ -5,11 +5,11 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "27684055"))
-    API_HASH = os.getenv("API_HASH", "4dc67e36a4ff40307ee2794b623d44d5")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "6000504420:AAF5PB8TfNYMY_e0j6E5tYAbI_ZqEKbmfik")
+    API_ID = int(os.getenv("API_ID", ""))
+    API_HASH = os.getenv("API_HASH", "")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOMcBu4LJ0CMSqNDYB9PtNuWeNEtBu8zUqDoXOGv-kL8D1s-3lg7UWs4KqHCPLnwk09XR3hgCvv3Bw-jexVXs8D1GcSDBN5r0SAmkC0XrHdnf6bFQljMKsJf4fm31UE79THVQ2vFh7h2rGoHQ3SxjUshnotuUO_gls7lRMhmfOZ1VtLIXzvEahZT9fXBBhFZzXyrZvl_Vrod1-9mRAzBgnxciLDGs2hmtVL9S5RJ5v485s5WzsUznuC_OEkk0pfJBXVMkO6nHMm5lLPaTUt7ABXBaP9g2zXx6DYsvJkwxzhACiGqMVityhx0aQxW6aldCGvKWiUjYyTgKM1iwyGXVii-BqYY=")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001772048947")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "doraemonsearchrobot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "5305304520"))
@@ -30,7 +30,7 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001769658045")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://pushparaj123:pushparaj123@cluster0.cr9rxb2.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = os.getenv("DATABASE_URL", "")
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001926755724"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
