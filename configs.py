@@ -14,7 +14,7 @@ class Config(object):
     BOT_USERNAME = os.getenv("BOT_USERNAME", "doraemonsearchrobot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "5305304520"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "misssunknown")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "directfilemovieflix")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "popcornpanda")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
