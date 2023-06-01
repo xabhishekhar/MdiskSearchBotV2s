@@ -10,11 +10,11 @@ class Config(object):
     BOT_TOKEN = os.getenv("BOT_TOKEN", "")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001863196533,-1001769658045")) 
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001863196533")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "doraemonsearchrobot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "5305304520"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "misssunknown")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "directfilemovieflix,popcornpanda")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "directfilemovieflix")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
