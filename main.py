@@ -108,8 +108,8 @@ async def message_handler(event):
 **Click On The Help To Know How To Watch**
     '''
 
-            newbutton = [Button.url('Help🙋',
-                                    f'https://t.me/howtoopen113')]
+            newbutton = [Button.url('✅Download Your Movie✅',
+                                    f'https://t.me/directfilemovieflix')]
 
             await txt.delete()
             result = await event.reply(answer, buttons=newbutton, link_preview=False)
