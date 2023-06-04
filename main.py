@@ -60,7 +60,7 @@ async def message_handler(event):
         if not args:
             return
 
-        txt = await event.reply('**Printing Links For "{}" 🔍**'.format(event.text))
+        txt = await event.reply('**Ruko zara sabar karo 😂 "{}" 🔍**'.format(event.text))
 
 
 
@@ -102,14 +102,14 @@ async def message_handler(event):
             finalsearch.append(msg)
 
         if c <= 0:
-            answer = f'''** Sorry {event.sender.first_name} No Results Found For {event.text}**
+            answer = f'''** Sorry {event.sender.first_name} ʏᴇ ᴍᴏᴠɪᴇ ᴍᴇʀᴇ ᴘᴀꜱꜱ ꜰɪʟʜᴀʟ ɴʜɪ ʜᴀɪ {event.text}**
 
-**Please check the spelling on** [Google](http://www.google.com/search?q={event.text.replace(' ', '%20')}%20Movie) 🔍
+**ᴘʟᴇᴀꜱᴇ.. ᴀᴘɴᴇ ꜱᴘᴇʟʟɪɴɢ ᴋᴏ ɢᴏᴏɢʟᴇ ᴘᴇ ꜱᴇᴀʀᴄʜ ᴋʀᴇ ...** [Google](http://www.google.com/search?q={event.text.replace(' ', '%20')}%20Movie) 🔍
 **Click On The Help To Know How To Watch**
     '''
 
-            newbutton = [Button.url('✅Download Your Movie✅',
-                                    f'https://t.me/directfilemovieflix')]
+            newbutton = [Button.url('Help',
+                                    f'https://t.me/howtoopen113')]
 
             await txt.delete()
             result = await event.reply(answer, buttons=newbutton, link_preview=False)
