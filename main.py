@@ -131,7 +131,7 @@ async def message_handler(event):
         )
         message = f'**Click Here 👇 For "{event.text}"**\n\n[🍿🎬 {str(event.text).upper()}\n🍿🎬 {str("Click me for results").upper()}]({tgraph_result})'
 
-        newbutton = [Button.url('Link kaise khole ❓',
+        newbutton = [Button.url('Link ko open Kaise kre❓',
                                     f'https://t.me/howtoopen113')]
 
         await txt.delete()
