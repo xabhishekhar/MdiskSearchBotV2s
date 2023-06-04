@@ -45,9 +45,9 @@ async def message_handler(event):
         if  not await get_user_join(event.sender_id):
             haha = await event.reply(f'''**Hey! {event.sender.first_name} 😃**
 
-**ʜᴜᴍᴀʀᴇ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ᴋᴏ ᴊᴏɪɴ ᴋʀᴏ ᴜꜱᴋᴇ ʙᴀᴀᴅ ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ᴋʀᴏ....ᴛᴀʙ ʜɪ ᴍᴏᴠɪᴇ ᴍɪʟᴇɢɪ ✅**
+**Updates Channel ko join kro , To movie dunga😏**
 
-**ɴɪᴄʜᴇ ᴡᴀʟᴇ ʙᴜᴛᴛᴏɴ ᴘᴇ ᴄʟɪᴄᴋ ᴋʀ ᴋᴇ ᴊᴏɪɴ ᴋʀʟᴏ👇🏻**''', buttons=Button.url('🍿Updates Channel🍿', f'https://t.me/{Config.UPDATES_CHANNEL_USERNAME}'))
+**Niche wale button pe click kr ke join krlo👇🏻**''', buttons=Button.url('🍿Updates Channel🍿', f'https://t.me/{Config.UPDATES_CHANNEL_USERNAME}'))
             await asyncio.sleep(Config.AUTO_DELETE_TIME)
             return await haha.delete()
 
@@ -144,7 +144,7 @@ async def message_handler(event):
     except Exception as e:
         print(e)
         await txt.delete()
-        result = await event.reply(" ꜰɪʀ ꜱᴇ ꜱᴇᴀʀᴄʜ ᴋʀᴏ 🔍")
+        result = await event.reply(" Firse search kro 🔍")
         await asyncio.sleep(Config.AUTO_DELETE_TIME)
         await event.delete() 
         return await result.delete()
