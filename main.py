@@ -105,7 +105,7 @@ async def message_handler(event):
             answer = f'''** Sorry {event.sender.first_name} ʏᴇ ᴍᴏᴠɪᴇ ᴍᴇʀᴇ ᴘᴀꜱꜱ ꜰɪʟʜᴀʟ ɴʜɪ ʜᴀɪ {event.text}**
 
 **ᴘʟᴇᴀꜱᴇ.. ᴀᴘɴᴇ ꜱᴘᴇʟʟɪɴɢ ᴋᴏ ɢᴏᴏɢʟᴇ ᴘᴇ ꜱᴇᴀʀᴄʜ ᴋʀᴇ ...** [Google](http://www.google.com/search?q={event.text.replace(' ', '%20')}%20Movie) 🔍
-**Click On The Help To Know How To Watch**
+**ʟɪɴᴋ ᴋʜᴏʟɴᴇ ɴʜɪ ᴀᴀ ʀʜᴀ ʜ ᴛᴏ ɴɪᴄʜᴇ ᴡᴀʟᴇ ʙᴜᴛᴛᴏɴ ᴘᴇ ᴄʟɪᴄᴋ ᴋʀᴏ**
     '''
 
             newbutton = [Button.url('Help',
@@ -131,7 +131,7 @@ async def message_handler(event):
         )
         message = f'**Click Here 👇 For "{event.text}"**\n\n[🍿🎬 {str(event.text).upper()}\n🍿🎬 {str("Click me for results").upper()}]({tgraph_result})'
 
-        newbutton = [Button.url('How To Watch ❓',
+        newbutton = [Button.url('Link kaise khole ❓',
                                     f'https://t.me/howtoopen113')]
 
         await txt.delete()
@@ -144,7 +144,7 @@ async def message_handler(event):
     except Exception as e:
         print(e)
         await txt.delete()
-        result = await event.reply("I am Unable Search,Plese See Other Result")
+        result = await event.reply(" ꜰɪʀ ꜱᴇ ꜱᴇᴀʀᴄʜ ᴋʀᴏ 🔍")
         await asyncio.sleep(Config.AUTO_DELETE_TIME)
         await event.delete() 
         return await result.delete()
