@@ -102,10 +102,10 @@ async def message_handler(event):
             finalsearch.append(msg)
 
         if c <= 0:
-            answer = f'''** Sorry {event.sender.first_name} ʏᴇ ᴍᴏᴠɪᴇ ᴍᴇʀᴇ ᴘᴀꜱꜱ ꜰɪʟʜᴀʟ ɴʜɪ ʜᴀɪ {event.text}**
+            answer = f'''** Sorry {event.sender.first_name} No Results Found For {event.text}**
 
-**ᴘʟᴇᴀꜱᴇ.. ᴀᴘɴᴇ ꜱᴘᴇʟʟɪɴɢ ᴋᴏ ɢᴏᴏɢʟᴇ ᴘᴇ ꜱᴇᴀʀᴄʜ ᴋʀᴇ ...** [Google](http://www.google.com/search?q={event.text.replace(' ', '%20')}%20Movie) 🔍
-**ʟɪɴᴋ ᴋʜᴏʟɴᴇ ɴʜɪ ᴀᴀ ʀʜᴀ ʜ ᴛᴏ ɴɪᴄʜᴇ ᴡᴀʟᴇ ʙᴜᴛᴛᴏɴ ᴘᴇ ᴄʟɪᴄᴋ ᴋʀᴏ**
+**Please check the spelling on** [Google](http://www.google.com/search?q={event.text.replace(' ', '%20')}%20Movie) 🔍
+**Click On The Help To Know How To open link**
     '''
 
             newbutton = [Button.url('Help',
