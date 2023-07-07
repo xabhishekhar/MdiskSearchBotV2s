@@ -11,7 +11,7 @@ class Config(object):
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001904406207")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "doraemonsearchrobot")
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "Atozflixbot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "5305304520"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "misssunknown")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "directfilemovieflix")
