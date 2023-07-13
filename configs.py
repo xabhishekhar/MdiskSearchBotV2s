@@ -12,8 +12,8 @@ class Config(object):
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001904406207")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "Atozflixbot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "5790359537"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "itsunknownbroo")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "1489446496"))
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "abhi_the_machinegun")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "directfilemovieflix")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
