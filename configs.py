@@ -5,9 +5,9 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "25562244"))
-    API_HASH = os.getenv("API_HASH", "afa60b3fd1ba44e46851f534177a9161")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5724325051:AAH3byyMOumi19p0ccL2-ylF5fZJrdAD-Pw")
+    API_ID = int(os.getenv("API_ID", "255😎244"))
+    API_HASH = os.getenv("API_HASH", "afa60b3fd1ba44🙈6851f534177a9161")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5724325051:AAH3😬MOumi19p0ccL2-ylF5fZJrdAD-Pw")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "BQGGDIQAYL2sQjyYEHoJpoWLMYQfML7VwUVmEuJMWZNGngjpTjJHE54RnJE4dccIFwMXbIzOSzsqPZz28WmYAH4iB6B8HUrEmCEx78GaucIBcjP3PJNXijIO3q7yG0fRDbl1SDas8dVOodPZhcIQh6NTdXZlkEHX3WFO_PSuO-qrY4vjF0aiffL_AaKTIZVVH5dwMOM6mki0k6Hh_0CvA7pk56Rt28D_Jta0U8n_gbDNl0siBB0r7nddU2hTDKC0us9q0QQKXMGvAc2PIyIEpU2N7dJZqZuMEoAenNLTD1GNqPpZjD60PwcPpD2QTRbnl5MAvB0Nfk8-Emc6NYH4JoQneBRlEAAAAAFZId_xAA")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001904406207")) 
